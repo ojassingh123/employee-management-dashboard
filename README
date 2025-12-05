@@ -1,0 +1,19 @@
+# Employee Management Dashboard
+
+A full-stack application built using **React + Node.js + MongoDB** for managing employee records.
+
+## 🔥 Features
+- Secure Login & Registration using MongoDB
+- Dashboard Analytics
+- Employee List with View/Edit/Delete
+- Charts & Graphs for employee statistics
+- Responsive Dashboard UI
+
+## 🛠️ Tech Stack
+**Frontend:** React, Bootstrap  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB Atlas
+
+## ▶️ How to Run Project Locally
+
+### Backend
