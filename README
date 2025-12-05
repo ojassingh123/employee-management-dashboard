@@ -17,3 +17,17 @@ A full-stack application built using **React + Node.js + MongoDB** for managing 
 ## ▶️ How to Run Project Locally
 
 ### Backend
+cd backend
+npm install
+npm run localdev
+
+### Frontend
+
+cd new-frontend
+npm install
+npm start
+
+
+## 👤 Developer
+Name: Ojas Singh  
+University Roll No: XXXXXX1532  
