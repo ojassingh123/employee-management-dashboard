@@ -1,0 +1,45 @@
+/* ✅ Sidebar container */
+.appsidenavbar {
+  width: 250px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e0f7fa, #b2ebf2);
+  border-radius: 0 20px 20px 0;
+  font-family: "Poppins", sans-serif;
+  color: #004d40;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Sidebar Title */
+.sidebar-title {
+  color: #00796b;
+}
+
+/* ✅ Divider line */
+.appsidenavbar hr {
+  border: none;
+  border-top: 2px solid rgba(0, 121, 107, 0.2);
+}
+
+/* ✅ Navigation links */
+.mysidebar .nav-link {
+  color: #004d40;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+/* ✅ Hover effect */
+.mysidebar .nav-link:hover {
+  background: #80deea;
+  color: #004d40;
+  transform: translateX(5px);
+}
+
+/* ✅ Active link */
+.mysidebar .nav-link.active {
+  background: #4dd0e1;
+  color: white;
+}

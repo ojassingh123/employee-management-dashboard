@@ -1,0 +1,26 @@
+.app-navbar {
+  background: linear-gradient(90deg, #007bff, #1e90ff);
+  padding: 0.8rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-navbar .navbar-brand {
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  color: white !important;
+}
+
+.app-navbar .nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.app-navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.app-navbar .btn {
+  border-radius: 25px;
+  font-weight: 500;
+}

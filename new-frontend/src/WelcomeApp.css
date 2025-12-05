@@ -1,0 +1,149 @@
+/* ================================
+   🌈 Background and Layout
+================================ */
+.welcome-container {
+  background: linear-gradient(135deg, #eef3fb 0%, #f9fbff 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* ================================
+   ✨ Left Section Title
+================================ */
+.title-gradient {
+  background: linear-gradient(90deg, #007bff, #00b4ff);
+  background-clip: text;
+  -webkit-background-clip: text; /* Safari / Chrome */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* ================================
+   📋 Feature List
+================================ */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.feature-list li {
+  font-size: 1.1rem;
+  color: #4b4b4b;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ================================
+   💳 Right Side Card (Login/Register Box)
+================================ */
+.welcome-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e6ebf5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 450px;
+}
+
+.welcome-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ================================
+   📱 App Boxes
+================================ */
+.app-box {
+  background: linear-gradient(135deg, #007bff, #00aaff);
+  height: 100px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.app-box:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(135deg, #0068dc, #009ae0);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+}
+
+.app-box p {
+  color: #fff !important;
+  margin-top: 8px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+/* ================================
+   🏷 Section Heading
+================================ */
+.welcome-card h4 {
+  color: #1a1f36;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* ================================
+   🔘 Inline Login/Register Controls
+================================ */
+.inline-form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.inline-form-buttons button {
+  min-width: 120px;
+}
+
+/* ================================
+   📱 Responsive Design
+================================ */
+@media (max-width: 768px) {
+  .welcome-container {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .title-gradient {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .welcome-card {
+    margin-top: 2rem;
+  }
+}
+/* ================================
+   ✨ Fade Animations
+================================ */
+.animate-fade {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

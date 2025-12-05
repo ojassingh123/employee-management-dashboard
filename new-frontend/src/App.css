@@ -1,0 +1,121 @@
+/* === ✅ Original Styles from Create React App === */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* === 🌈 BONUS STYLING FOR EMPLOYEE UI (SAFE ADDITION) === */
+
+body {
+  background-color: #e0f2f1;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card layout for employee preview */
+.emp-card {
+  background: #ffffffcc;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.emp-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Avatar image inside card */
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #00796b;
+  box-shadow: 0 0 10px rgba(0, 121, 107, 0.4);
+}
+
+/* Badge style for gender and dob */
+.badge-pill {
+  background-color: #4db6ac;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+/* Button consistency */
+.btn-custom {
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-weight: 500;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+/* Hover animation for button */
+.btn-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Page heading style */
+h2 {
+  font-weight: 600;
+}
+
+/* Card layout responsive adjustments */
+@media (max-width: 768px) {
+  .emp-card {
+    padding: 15px;
+  }
+
+  .btn-custom {
+    padding: 5px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+/* Smooth fade-in on page load */
+@keyframes fadeInSmooth {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeInSmooth 0.8s ease-in-out;
+}
